@@ -1,0 +1,13 @@
+train: ../datasets/train/images
+val: ../datasets/valid/images
+test: ../datasets/test/images
+
+nc: 2  # number of classes
+names: ['Syringe', 'cotton']  # class names
+
+roboflow:
+  workspace: testmeta-cikh8
+  project: syringe-cotton
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/testmeta-cikh8/syringe-cotton/dataset/2
